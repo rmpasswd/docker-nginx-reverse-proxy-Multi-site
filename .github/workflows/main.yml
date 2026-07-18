@@ -8,6 +8,7 @@ on:
 jobs:
   debug-secrets:
       runs-on: ubuntu-latest
+      environment: action_ssh
       steps:
         - name: Verify Secret Presence and Character Length
           run: |
@@ -26,6 +27,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    environment: action_ssh
     steps:
       - name: Run ssh 
         uses: appleboy/ssh-action@v1.0.3
