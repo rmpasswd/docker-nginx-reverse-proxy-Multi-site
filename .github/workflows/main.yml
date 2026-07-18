@@ -6,34 +6,15 @@ on:
       - main
 
 jobs:
-  debug-secrets:
-      runs-on: ubuntu-latest
-      environment: action_ssh
-      steps:
-        - name: Verify Secret Presence and Character Length
-          run: |
-            SECRET_DATA="${{ secrets.SSH_SERVER_KEY }}"
-           
-            if [ -z "$SECRET_DATA" ]; then
-              echo "SSH_SERVER_KEY is empty!"
-              exit 1
-            fi
-            SECRET_DATA="${{ secrets.SSH_HOST_IP }}"
-
-            if [ -z "$SECRET_DATA" ]; then
-              echo "SSH_HOST_IP is empty!"
-              exit 1
-            fi
-
   deploy:
     runs-on: ubuntu-latest
     environment: action_ssh
     steps:
       - name: Run ssh 
-        uses: appleboy/ssh-action@1.2.5
+        uses: appleboy/ssh-action@v1.2.5
         with:
-          host: 35.240.190.73
-          username: g9mahin_ahmad
+          host: ${{ secrets.SSH_HOST_IP }}
+          username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_SERVER_KEY }}
           script: |
             cd /home/g9mahin_ahmad/docker-nginx-reverse-proxy-Multi-site/
