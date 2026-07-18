@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Mahin's Portphol𝒊o</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&amp;display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&amp;family=Vollkorn:ital,wght@0,400..900;1,400..900&amp;display=swap">
+</head>
+
+<body>
+
+
+
+  <div class="hamburger-no-js">
+    <label class="hamburger-checkbox">
+      <input type="checkbox" />
+      <span>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+    </label>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="./index.html">
+          <span class="fa-solid fa-house"></span>
+          <span class="sr-only">Home</span></a>
+      </li>
+      <li><a href="https://dev.to/mahin101/" target="_blank">
+          Blog...
+          <span class="far fa-newspaper"></span>
+          <!-- <span class="fas fa-question-circle"></span> -->
+        </a>
+      </li>
+      <li><a href="https://github.com/rmpasswd?tab=repositories&q=&type=public&language=&sort=stargazers"
+          target="_blank">
+          <span class="fa-brands fa-github"></span>
+          More Projects</a>
+      </li>
+      <li><a href="https://www.linkedin.com/in/mahin-ahmad/" target="_blank">
+          <span class="fa-brands fa-linkedin-in"></span>
+          LinkedIn</a>
+      </li>
+      <li><a href="#contact">
+          <span class="fa-solid fa-square-envelope"></span>
+          Contact</a>
+      </li>
+      <!-- <li onclick="location.hash = '#contact'"><a href="https://drive.google.com/file/d/1pQ49bO4wiZukaBR00RiOGlz9NqG3EA95/view?usp=drive_link" target="_blank"> -->
+      <li onclick="location.hash = '#contact'"><a
+          href="https://drive.google.com/file/d/1kJBvzPQRAkVl__QJakQOrblExPb5M1wZ/view?usp=drive_link" target="_blank">
+          <span class="button" style="white-space:nowrap">🚀 Resume</span>
+          <span class="fa-solid fa-rocket" style="opacity:0"></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- setting aria-hidden to true hides the Icon from screen readers. -->
+  <!-- span tag with class="sr-only" hides the Text from normal users. -->
+
+  <section id="intro">
+    <div class="sidebyside" style="
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    ">
+
+      <p class="name" style="grid-column: 1/6; grid-row: 1/2;">Hello, This is <span>Mahin Ahmad.</span>
+        </br>Bridging between data and software in my last role, I am equipped to break down complex
+        projects into simple parts, architect and develop robust software and database solutions.
+        Looking forward to working on challenging and rewarding roles with a healthy team
+        environment.
+      </p>
+      <img style="grid-column: 6/10; grid-row: 1/2; padding: 3rem; border-radius: 15%;" src="./img/2.jpeg"
+        alt="profile pic" />
+
+    </div>
+  </section>
+
+  <div class="gradient-line"></div>
+
+  <section id="projects">
+    <h2>Projects I'm proud of</h2>
+
+    <article>
+      <div class="text">
+        <h4>Client Project</h4>
+        <h3>Vehicle Fleet Tracking</h3>
+        <p class="project-description">
+          • Designed and deployed an IoT data pipeline using <i>Supabase Edge Function</i> to send GPS data from MQTT
+          broker into hosted PostgreSQL, ensuring high data reliability and scalability.</br>
+          • Engineered a geofencing feature and automated entry/exit detection, to provide transport clients real-time
+          vehicle fleet visibility.</br>
+          • Optimized SQL logic and PostgreSQL triggers for data aggregation and archiving, reducing query latency and
+          faster display of vehicle's track history in the web application.
+        </p>
+        <h4><u>Technologies used:</u></h4>
+        <ul>
+          <li>JavaScript/TypeScript</li>
+          <li>Leaflet.js</li>
+          <li>PostgreSQL</li>
+          <li>Supabase</li>
+        </ul>
+      </div>
+      <img src="C:\Users\Ahmad Mahin\Documents\coding\portfolio-rmpasswd.github.io\img\vehicle-fleet-tracking.png"
+        alt="Screenshot of the Wall of Wonder." />
+    </article>
+
+    <article>
+      <div class="text">
+        <h4>Client Project</h4>
+        <h3>Automated Reporting and Analytics</h3>
+        <p class="project-description">
+          • Built Grafana dashboards (timeseries, bar, gauge, X-Y, dual-axis chart etc.) for a long term Oil & Gas
+          client. Data flow from SCADA System to MySQL to Grafana.</br>
+          • Built proof-of-concepts: data flow from Modbus to Grafana; Telegraf agent to Influxdb to Grafana.</br>
+          • Developed VBA macros in Excel to automate formatted daily reports using data imported from VTScada,
+          delivering automated daily reports directly to stakeholders' SharePoint drive.</br>
+          • Optimized MySQL queries, reducing latency (dashboard load time).</br>
+          • Served clients across the RnG, Oil & Gas and Solar industries in the USA, Denmark as an official systems
+          integrator for enterprise SCADA platforms, Ignition and VTScada.
+        </p>
+        <h4><u>Technologies used:</u></h4>
+        <ul>
+          <li>Grafana </li>
+          <li>MySQL</li>
+          <li>Excel Macro</li>
+          <li>SCADA(ERP) Reporting Module</li>
+        </ul>
+      </div>
+      <img src="C:\Users\Ahmad Mahin\Documents\coding\portfolio-rmpasswd.github.io\img\grafana.png"
+        alt="Screenshot of the Frontend Masters Bootcamp.">
+    </article>
+
+    <article>
+      <div class="text">
+        <h4>Personal Project</h4>
+        <h3>FastAPI Blog Load Testing</h3>
+        <p class="project-description">
+          • Dockerized: Multi-stage build; compose-yaml file to deploy multi-container stack.</br>
+          • CI/CD: Github Action pipeline to automate build & push to Registry. WatchTower polls for new image,
+          re-deploys app.</br>
+          • Monitoring: CloudWatch Agent, Grafana tracking node health, DB load, memory spikes.</br>
+          • Architecture & workflow available in Github.</br>
+          • Fully functioning blog, register, login and make posts, upload user profile pictures. Made following
+          resources online, Corey Schafer in youtube</br>
+        </p>
+        <h4>Technologies used:</h4>
+        <ul>
+          <li>Python FastAPI</li>
+          <li>SQLAlchemy</li>
+          <li>Pydantic</li>
+          <li>Pydantic</li>
+        </ul>
+      </div>
+      <img src="https://blog.mahin.uk/media/blog-webapp-latest-architecture.gif" />
+    </article>
+
+    <article>
+      <div class="text">
+        <h4>Funded Development Project</h4>
+        <h3></h3>
+        <p class="project-description">
+          • Built a social awareness android game in collaboration with graphics and storyboard team. Had to learn a
+          pythonic third party game engine called Ren'py.</br>
+          • Our university team was awarded a grant by FNF Bangladesh and Preneur Lab to develop and publish the game <a
+            href="https://gameseeder.itch.io/newnormalcovid19">(link)</a>.
+        </p>
+        <h4>Technologies used:</h4>
+        <ul>
+          <li>Python</li>
+          <li>Ren'py library</li>
+        </ul>
+      </div>
+      <img src="C:\Users\Ahmad Mahin\Documents\coding\portfolio-rmpasswd.github.io\img\gameseeder.png" />
+    </article>
+
+  </section>
+
+
+  <div class="gradient-line"></div>
+
+  <section id="contact">
+    <h3 style="font-size: 1.2rem;">Contact Me?</h3>
+    <p style="font-size: 1rem;">
+      Interested in part-time projects on backend, database, observability, teaching opportunities etc.
+    </p>
+    <p>Send your pegions: H-303, Nowhere Road, Paper Town, Neverland. The email is legit:)</p>
+    <p><a style="font-size: 1rem;" href="mailto:9mahin.ahmad@gmail.com" class="button">📧E-mail Me</a></p>
+  </section>
+
+  <div class="gradient-line"></div>
+  <footer>
+    <!--   <p>Mahin Ahmad &middot; Software Engineer(SCADA)</p> -->
+    <p>Ahmad Mahin &middot; Software Engineer</p>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/mahin-ahmad/">
+          <span class="fa-brands fa-linkedin-in" aria-hidden="true"></span>
+          <span class="sr-only">LinkedIn</span> </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/mahin-ahmad/" target="_blank"> <span class="fa-brands fa-github"></span>
+          <span class="sr-only">Github</span> </a>
+      </li>
+      <li>
+        <a href="mailto:9mahin./" target="_blank">
+          <span class="fa-solid fa-square-envelope"></span>
+          <span class="sr-only">Email</span> </a>
+      </li>
+
+    </ul>
+    <p><small>&copy;
+        <script> document.write(new Date().getFullYear()); </script> Ahmad Mahin. All rights reserved.
+      </small></p>
+  </footer>
+</body>
+
+</html>
+
+
+<!-- https://community.cloudflare.com/t/domain-registrar-data-not-fully-redacted/520658/5 -->

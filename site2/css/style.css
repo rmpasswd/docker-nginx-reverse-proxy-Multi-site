@@ -1,0 +1,418 @@
+  :root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4bOd49;
+    --hotmag: #ff17e4;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --darkorange: #ff8c00;
+    --font-size: 1.5rem;
+    --mono: "Roboto mono", monospace;
+    --sans: Vollkorn, sans—serif;
+    
+  }
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+/*
+* { 
+    border: 1px solid red;
+   border-color: red;
+} */
+
+ body {
+  /*   padding: 0; */
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+img {
+  width: 90%;
+}
+
+.gradient-line {
+    background: linear-gradient(90deg, rgba(134,251,251,1) 0%, rgba(255,140,0,1) 100%);
+    height: 2px;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+
+/* -------------------------- nav ------------------------------ */
+nav {
+  font-family: var(--mono);
+  /* font-size: 80%; */
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  gap: 2rem;
+}
+
+
+nav li:first-child,
+nav li:nth-child(2) {
+  flex: 0 0 100%;  /*  flex-grow 0 flex-shrink 0 flex-basis 100% */
+  text-align: left;
+}
+
+nav [class*="fa-"] {
+  font-size: 150%;
+  color: var(--aqua);
+  vertical-align: text-top;
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+nav li:hover {
+  * {
+    color: orange;
+  }
+}
+
+nav {
+  max-width: 1200px; /*  For gigantic displays, keep it within a max width. */
+  margin: 0 auto;
+}
+
+
+@media (min-width: 850px) { /* For desktop */
+  
+  .hamburger-no-js {
+    display: none;
+  }
+
+  
+
+  nav li:first-child,
+  nav li:nth-child(2) {
+    flex: 0 0 100%;  /*  flex-grow 0 flex-shrink 0 flex-basis 100% */
+    flex-basis: auto;
+    text-align: left;
+    /* margin-right: auto; */ 
+    /* applies to both of them, thus puts a gap between them! */ 
+  } 
+  nav li:nth-child(2) { 
+    margin-right: auto; 
+  } 
+} 
+
+
+/* .hamburger-no-js{   display: none;  } */
+
+@media (max-width: 850px) {  /* FOR MOBILE DEVICE */ 
+ 
+  .hamburger-no-js::before,
+  .hamburger-no-js::after,
+  .hamburger-no-js input {
+    appearance: none; 
+    padding: auto; margin: auto;
+    outline: none;
+    pointer-events: none;
+  }
+
+  /* Toggle between menubar icon and xmark */
+  .fa-bars, .fa-xmark { /* .xbars { transition: opacity } doesn't work */
+      transition: opacity 1s ease-in-out;
+      padding: 0.5rem 0.5rem;
+  }
+  .fa-xmark{ 
+    opacity: 0;
+    /* width: 0; */
+    /* padding: 0; margin: 0; */
+    }
+  .hamburger-no-js input:checked + span{
+    .fa-bars{ 
+      opacity: 0;
+      /* width: 0;  */
+      /* padding: 0; margin: 0; */
+      }
+    .fa-xmark{ 
+      opacity: 1;
+      }
+  }
+            /*       */
+  nav ul { 
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5rem;
+    align-items: start;
+    justify-content: space-between;    
+    translate: -100%;
+    transition: translate 600ms ease-out;
+    /* display: none; */
+    /* visibility: hidden; */
+  } 
+
+  nav ul li:has(a span.fa-house){
+    display: none; 
+    /* visibility: hidden; keeps the margin & padding       */
+    /* notice this is applied on the li element, not ul or nav*/
+  }
+
+  nav {
+    max-height: 0;
+    transition: max-height 0.4s ease, transform 0.4s ease;
+    transform: translateY(-1rem);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .hamburger-no-js:has(input:checked) + nav {
+    max-height: 100vh; /* Or the actual menu height */
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;    ul {
+      translate: 0;
+      }
+  }
+}
+
+
+
+.button{
+  background-color: var(--aqua);
+  color: var(--black);
+  padding: 0.3rem;
+  padding-right: 0.44rem;
+  border-radius: 7px;
+}
+
+.button:hover    {
+    background-color: orange;
+    color: white; 
+}
+
+
+/* ---------------------------intro----------------------------- */ 
+
+#intro {
+
+    font-size: 150%;
+    /* padding: 4rem 1rem 10rem 1rem;    */
+    padding: 4rem 1rem 0rem 1rem;   
+    max-width: 1200px;
+    margin: 0 auto;
+
+    a {
+        /* all links... */
+        color: orange;
+        text-decoration: underline;
+    }
+    a:hover {
+        /* color: var(--white); */
+        /* background-color: var(--hotmag); */
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    p {
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+    p:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+}
+
+#intro .name {
+  font-family: Georgia, serif;
+  span {
+    font-size: 2.5rem;
+    color: var(--aqua);
+    display: grid;
+  }
+}
+
+
+/* ---------------------------projects----------------------------- */
+
+#projects{
+  background-color: #0d314b;
+  /* padding: 4rem 1rem 10rem 1rem; */
+  padding: 1rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: calc(2rem * 1.5);
+  }
+
+  h4 {
+    margin-bottom: 0%;
+  }
+
+  h3 {
+    color: aqua;
+    margin-top: 0%;
+    font-size: 1.8rem;
+  }
+
+  .project-description{
+    background-color: #171321;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: left;
+    /* these 3 below had no visible changes...  */
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /* horizontal */
+    align-items: center; /* vertical */
+    gap: 1rem;
+
+    padding: 0; margin:  0;
+    /* added  to  remove  left padding on tech  stacks  on even numbered articles  because  ul tag has a default 40px padding */
+  }
+
+  img {
+    border-color: aqua;
+    margin: 2rem ; 
+    padding: 1rem; 
+    border-left: 1px solid aqua; 
+    border-top: 1px solid aqua; 
+    border-radius: 20px;
+  }
+
+
+     
+  article:nth-child(odd) {    /* With :nth-child(n) , all children are counted, regardless of what they are */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 5rem;
+
+    .text {
+      order: 2; /* z-index ?*/
+      text-align: left;
+    }
+    ul {
+      justify-content: flex-start;
+    }
+
+    /* text block Overlapping the image block */
+    grid-template-columns: repeat(10, 1fr);
+    .text {
+      grid-column: 1/6;
+      grid-row: 1/2;
+    }
+    img {
+      grid-column: 5/11;
+      grid-row: 1/2;
+      padding-top: 1rem;
+    }
+  }
+
+  article:nth-child(even) {    /* With :nth-child(n) , all children are counted, regardless of what they are */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 5rem;
+
+    .text {
+      order: 2; /* z-index ?*/
+      text-align: right;
+    }
+    ul {
+      justify-content: flex-end;
+    }
+
+    /* text block Overlapping the image block */
+    grid-template-columns: repeat(10, 1fr);
+    img {
+      grid-column: 1/6;
+      grid-row: 1/2;
+    }
+    .text {
+      grid-column: 5/11;
+      grid-row: 1/2;
+      padding-top: 1rem;
+    }
+  }
+  
+  @media (min-width: 550px) { 
+
+  }  
+
+} /* projects */
+
+
+
+
+/* ---------------------------contact----------------------------- */
+#contact {
+  background-color: #153c4e; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 1rem 0 1rem 0;    /* putting distance under gradient line */ 
+  
+  * { 
+    text-align: center; 
+    width: 400px;  
+    /* this way, only all the children will be 400px; but the entire contanct section will have the bg color. */ 
+    margin: 0 auto; /*  width and margin works together */ 
+    font-family: "Roboto Mono"; 
+    font-size: 0.8rem; 
+  } 
+ 
+  p:last-child { 
+    text-decoration: underline; 
+    margin-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+    display: block; 
+    &:hover { 
+      cursor: crosshair; 
+      color: blue; 
+    } 
+  } 
+} 
+
+
+/* ---------------------------footer----------------------------- */
+
+footer { 
+  text-align: center; /*   this is a property that will inherited by all the descendents */ 
+  font-family: "Times New Roman", Times, serif; 
+  padding: 1rem 0 1rem 0;    /* putting distance under gradient line */ 
+ 
+} 
+ 
+footer ul { 
+  padding: 0; 
+  margin: 1rem 0; 
+  list-style-type: none; 
+  font-size: 1.5rem; 
+ 
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: center; /* horizontal axis */ 
+  align-items: center; /* vertical axis*/ 
+  gap: 2rem; 
+} 
+ 
