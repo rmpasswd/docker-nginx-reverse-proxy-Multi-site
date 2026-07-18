@@ -30,7 +30,7 @@ jobs:
     environment: action_ssh
     steps:
       - name: Run ssh 
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/ssh-action@v1.2.5
         with:
           host: 35.240.190.73
           username: g9mahin_ahmad
