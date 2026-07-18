@@ -1,0 +1,725 @@
+2026/07/18 14:41:54 [notice] 1#1: using the "epoll" event method
+2026/07/18 14:41:54 [notice] 1#1: nginx/1.30.4
+2026/07/18 14:41:54 [notice] 1#1: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2026/07/18 14:41:54 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2026/07/18 14:41:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/07/18 14:41:54 [notice] 1#1: start worker processes
+2026/07/18 14:41:54 [notice] 1#1: start worker process 20
+2026/07/18 14:41:54 [notice] 1#1: start worker process 21
+2026/07/18 14:41:54 [notice] 1#1: start worker process 22
+2026/07/18 14:41:54 [notice] 1#1: start worker process 23
+2026/07/18 14:41:54 [notice] 1#1: start worker process 24
+2026/07/18 14:41:54 [notice] 1#1: start worker process 25
+2026/07/18 14:41:54 [notice] 1#1: start worker process 26
+2026/07/18 14:41:54 [notice] 1#1: start worker process 27
+2026/07/18 15:43:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/07/18 15:43:37 [notice] 20#20: gracefully shutting down
+2026/07/18 15:43:37 [notice] 21#21: gracefully shutting down
+2026/07/18 15:43:37 [notice] 23#23: gracefully shutting down
+2026/07/18 15:43:37 [notice] 22#22: gracefully shutting down
+2026/07/18 15:43:37 [notice] 24#24: gracefully shutting down
+2026/07/18 15:43:37 [notice] 25#25: gracefully shutting down
+2026/07/18 15:43:37 [notice] 26#26: gracefully shutting down
+2026/07/18 15:43:37 [notice] 27#27: gracefully shutting down
+2026/07/18 15:43:37 [notice] 20#20: exiting
+2026/07/18 15:43:37 [notice] 21#21: exiting
+2026/07/18 15:43:37 [notice] 20#20: exit
+2026/07/18 15:43:37 [notice] 23#23: exiting
+2026/07/18 15:43:37 [notice] 22#22: exiting
+2026/07/18 15:43:37 [notice] 24#24: exiting
+2026/07/18 15:43:37 [notice] 25#25: exiting
+2026/07/18 15:43:37 [notice] 24#24: exit
+2026/07/18 15:43:37 [notice] 26#26: exiting
+2026/07/18 15:43:37 [notice] 27#27: exiting
+2026/07/18 15:43:37 [notice] 21#21: exit
+2026/07/18 15:43:37 [notice] 23#23: exit
+2026/07/18 15:43:37 [notice] 22#22: exit
+2026/07/18 15:43:37 [notice] 25#25: exit
+2026/07/18 15:43:37 [notice] 26#26: exit
+2026/07/18 15:43:37 [notice] 27#27: exit
+2026/07/18 15:43:37 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/07/18 15:43:37 [notice] 1#1: worker process 24 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:43:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2026/07/18 15:43:37 [notice] 1#1: worker process 23 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: worker process 25 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: worker process 26 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: worker process 27 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:43:37 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/07/18 15:43:37 [notice] 1#1: worker process 22 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:43:37 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2026/07/18 15:43:37 [notice] 1#1: worker process 20 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:43:37 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2026/07/18 15:43:37 [notice] 1#1: worker process 21 exited with code 0
+2026/07/18 15:43:37 [notice] 1#1: exit
+2026/07/18 15:43:38 [notice] 1#1: using the "epoll" event method
+2026/07/18 15:43:38 [notice] 1#1: nginx/1.30.4
+2026/07/18 15:43:38 [notice] 1#1: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2026/07/18 15:43:38 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2026/07/18 15:43:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/07/18 15:43:38 [notice] 1#1: start worker processes
+2026/07/18 15:43:38 [notice] 1#1: start worker process 20
+2026/07/18 15:43:38 [notice] 1#1: start worker process 21
+2026/07/18 15:43:38 [notice] 1#1: start worker process 22
+2026/07/18 15:43:38 [notice] 1#1: start worker process 23
+2026/07/18 15:43:38 [notice] 1#1: start worker process 24
+2026/07/18 15:43:38 [notice] 1#1: start worker process 25
+2026/07/18 15:43:38 [notice] 1#1: start worker process 26
+2026/07/18 15:43:38 [notice] 1#1: start worker process 27
+2026/07/18 15:51:43 [notice] 34#34: signal process started
+2026/07/18 15:51:43 [notice] 1#1: signal 1 (SIGHUP) received from 34, reconfiguring
+2026/07/18 15:51:43 [notice] 1#1: reconfiguring
+2026/07/18 15:51:43 [notice] 1#1: using the "epoll" event method
+2026/07/18 15:51:43 [notice] 1#1: start worker processes
+2026/07/18 15:51:43 [notice] 1#1: start worker process 40
+2026/07/18 15:51:43 [notice] 1#1: start worker process 41
+2026/07/18 15:51:43 [notice] 1#1: start worker process 42
+2026/07/18 15:51:43 [notice] 1#1: start worker process 43
+2026/07/18 15:51:43 [notice] 1#1: start worker process 44
+2026/07/18 15:51:43 [notice] 1#1: start worker process 45
+2026/07/18 15:51:43 [notice] 1#1: start worker process 46
+2026/07/18 15:51:43 [notice] 1#1: start worker process 47
+2026/07/18 15:51:44 [notice] 20#20: gracefully shutting down
+2026/07/18 15:51:44 [notice] 21#21: gracefully shutting down
+2026/07/18 15:51:44 [notice] 22#22: gracefully shutting down
+2026/07/18 15:51:44 [notice] 23#23: gracefully shutting down
+2026/07/18 15:51:44 [notice] 26#26: gracefully shutting down
+2026/07/18 15:51:44 [notice] 27#27: gracefully shutting down
+2026/07/18 15:51:44 [notice] 24#24: gracefully shutting down
+2026/07/18 15:51:44 [notice] 25#25: gracefully shutting down
+2026/07/18 15:51:44 [notice] 20#20: exiting
+2026/07/18 15:51:44 [notice] 21#21: exiting
+2026/07/18 15:51:44 [notice] 22#22: exiting
+2026/07/18 15:51:44 [notice] 23#23: exiting
+2026/07/18 15:51:44 [notice] 26#26: exiting
+2026/07/18 15:51:44 [notice] 27#27: exiting
+2026/07/18 15:51:44 [notice] 24#24: exiting
+2026/07/18 15:51:44 [notice] 25#25: exiting
+2026/07/18 15:51:44 [notice] 20#20: exit
+2026/07/18 15:51:44 [notice] 21#21: exit
+2026/07/18 15:51:44 [notice] 22#22: exit
+2026/07/18 15:51:44 [notice] 23#23: exit
+2026/07/18 15:51:44 [notice] 26#26: exit
+2026/07/18 15:51:44 [notice] 27#27: exit
+2026/07/18 15:51:44 [notice] 24#24: exit
+2026/07/18 15:51:44 [notice] 25#25: exit
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2026/07/18 15:51:44 [notice] 1#1: worker process 20 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2026/07/18 15:51:44 [notice] 1#1: worker process 23 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/07/18 15:51:44 [notice] 1#1: worker process 21 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: worker process 24 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/07/18 15:51:44 [notice] 1#1: worker process 25 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2026/07/18 15:51:44 [notice] 1#1: worker process 27 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/07/18 15:51:44 [notice] 1#1: worker process 22 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:51:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2026/07/18 15:51:44 [notice] 1#1: worker process 26 exited with code 0
+2026/07/18 15:51:44 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:03 [notice] 48#48: signal process started
+2026/07/18 15:54:03 [notice] 1#1: signal 1 (SIGHUP) received from 48, reconfiguring
+2026/07/18 15:54:03 [notice] 1#1: reconfiguring
+2026/07/18 15:54:03 [notice] 1#1: using the "epoll" event method
+2026/07/18 15:54:03 [notice] 1#1: start worker processes
+2026/07/18 15:54:03 [notice] 1#1: start worker process 54
+2026/07/18 15:54:03 [notice] 1#1: start worker process 55
+2026/07/18 15:54:03 [notice] 1#1: start worker process 56
+2026/07/18 15:54:03 [notice] 1#1: start worker process 57
+2026/07/18 15:54:03 [notice] 1#1: start worker process 58
+2026/07/18 15:54:03 [notice] 1#1: start worker process 59
+2026/07/18 15:54:03 [notice] 1#1: start worker process 60
+2026/07/18 15:54:03 [notice] 1#1: start worker process 61
+2026/07/18 15:54:03 [notice] 40#40: gracefully shutting down
+2026/07/18 15:54:03 [notice] 41#41: gracefully shutting down
+2026/07/18 15:54:03 [notice] 42#42: gracefully shutting down
+2026/07/18 15:54:03 [notice] 43#43: gracefully shutting down
+2026/07/18 15:54:03 [notice] 44#44: gracefully shutting down
+2026/07/18 15:54:03 [notice] 45#45: gracefully shutting down
+2026/07/18 15:54:03 [notice] 46#46: gracefully shutting down
+2026/07/18 15:54:03 [notice] 47#47: gracefully shutting down
+2026/07/18 15:54:03 [notice] 40#40: exiting
+2026/07/18 15:54:03 [notice] 41#41: exiting
+2026/07/18 15:54:03 [notice] 42#42: exiting
+2026/07/18 15:54:03 [notice] 43#43: exiting
+2026/07/18 15:54:03 [notice] 44#44: exiting
+2026/07/18 15:54:03 [notice] 45#45: exiting
+2026/07/18 15:54:03 [notice] 46#46: exiting
+2026/07/18 15:54:03 [notice] 47#47: exiting
+2026/07/18 15:54:03 [notice] 40#40: exit
+2026/07/18 15:54:03 [notice] 41#41: exit
+2026/07/18 15:54:03 [notice] 42#42: exit
+2026/07/18 15:54:03 [notice] 43#43: exit
+2026/07/18 15:54:03 [notice] 44#44: exit
+2026/07/18 15:54:03 [notice] 45#45: exit
+2026/07/18 15:54:03 [notice] 46#46: exit
+2026/07/18 15:54:03 [notice] 47#47: exit
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2026/07/18 15:54:03 [notice] 1#1: worker process 41 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2026/07/18 15:54:03 [notice] 1#1: worker process 42 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: worker process 44 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: worker process 47 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/07/18 15:54:03 [notice] 1#1: worker process 40 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: worker process 46 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 46
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2026/07/18 15:54:03 [notice] 1#1: worker process 43 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:03 [notice] 1#1: signal 17 (SIGCHLD) received from 45
+2026/07/18 15:54:03 [notice] 1#1: worker process 45 exited with code 0
+2026/07/18 15:54:03 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:09 [error] 54#54: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.0.1, server: localhost, request: "GET /site1 HTTP/1.1", upstream: "http://172.30.0.2:80/site1/index.html", host: "localhost"
+2026/07/18 15:54:09 [error] 54#54: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/site1"
+2026/07/18 15:54:20 [notice] 62#62: signal process started
+2026/07/18 15:54:20 [notice] 1#1: signal 1 (SIGHUP) received from 62, reconfiguring
+2026/07/18 15:54:20 [notice] 1#1: reconfiguring
+2026/07/18 15:54:20 [notice] 1#1: using the "epoll" event method
+2026/07/18 15:54:20 [notice] 1#1: start worker processes
+2026/07/18 15:54:20 [notice] 1#1: start worker process 68
+2026/07/18 15:54:20 [notice] 1#1: start worker process 69
+2026/07/18 15:54:20 [notice] 1#1: start worker process 70
+2026/07/18 15:54:20 [notice] 1#1: start worker process 71
+2026/07/18 15:54:20 [notice] 1#1: start worker process 72
+2026/07/18 15:54:20 [notice] 1#1: start worker process 73
+2026/07/18 15:54:20 [notice] 1#1: start worker process 74
+2026/07/18 15:54:20 [notice] 1#1: start worker process 75
+2026/07/18 15:54:20 [notice] 55#55: gracefully shutting down
+2026/07/18 15:54:20 [notice] 54#54: gracefully shutting down
+2026/07/18 15:54:20 [notice] 56#56: gracefully shutting down
+2026/07/18 15:54:20 [notice] 57#57: gracefully shutting down
+2026/07/18 15:54:20 [notice] 58#58: gracefully shutting down
+2026/07/18 15:54:20 [notice] 59#59: gracefully shutting down
+2026/07/18 15:54:20 [notice] 60#60: gracefully shutting down
+2026/07/18 15:54:20 [notice] 61#61: gracefully shutting down
+2026/07/18 15:54:20 [notice] 55#55: exiting
+2026/07/18 15:54:20 [notice] 54#54: exiting
+2026/07/18 15:54:20 [notice] 56#56: exiting
+2026/07/18 15:54:20 [notice] 57#57: exiting
+2026/07/18 15:54:20 [notice] 58#58: exiting
+2026/07/18 15:54:20 [notice] 59#59: exiting
+2026/07/18 15:54:20 [notice] 60#60: exiting
+2026/07/18 15:54:20 [notice] 61#61: exiting
+2026/07/18 15:54:20 [notice] 55#55: exit
+2026/07/18 15:54:20 [notice] 54#54: exit
+2026/07/18 15:54:20 [notice] 56#56: exit
+2026/07/18 15:54:20 [notice] 57#57: exit
+2026/07/18 15:54:20 [notice] 58#58: exit
+2026/07/18 15:54:20 [notice] 59#59: exit
+2026/07/18 15:54:20 [notice] 60#60: exit
+2026/07/18 15:54:20 [notice] 61#61: exit
+2026/07/18 15:54:20 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2026/07/18 15:54:20 [notice] 1#1: worker process 55 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: worker process 58 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:20 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2026/07/18 15:54:20 [notice] 1#1: worker process 54 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: worker process 57 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: worker process 60 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: worker process 61 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:20 [notice] 1#1: signal 17 (SIGCHLD) received from 59
+2026/07/18 15:54:20 [notice] 1#1: worker process 59 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:20 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2026/07/18 15:54:20 [notice] 1#1: worker process 56 exited with code 0
+2026/07/18 15:54:20 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 15:54:23 [error] 68#68: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.0.1, server: localhost, request: "GET /site1 HTTP/1.1", upstream: "http://172.30.0.2:80/index.html", host: "localhost"
+2026/07/18 15:54:27 [error] 68#68: *3 open() "/etc/nginx/html/.well-known/appspecific/com.chrome.devtools.json" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost"
+2026/07/18 15:54:31 [error] 68#68: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.0.1, server: localhost, request: "GET /site1 HTTP/1.1", upstream: "http://172.30.0.2:80/index.html", host: "localhost"
+2026/07/18 15:54:31 [error] 68#68: *3 open() "/etc/nginx/html/.well-known/appspecific/com.chrome.devtools.json" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost"
+2026/07/18 16:21:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/07/18 16:21:08 [notice] 68#68: gracefully shutting down
+2026/07/18 16:21:08 [notice] 69#69: gracefully shutting down
+2026/07/18 16:21:08 [notice] 70#70: gracefully shutting down
+2026/07/18 16:21:08 [notice] 71#71: gracefully shutting down
+2026/07/18 16:21:08 [notice] 73#73: gracefully shutting down
+2026/07/18 16:21:08 [notice] 72#72: gracefully shutting down
+2026/07/18 16:21:08 [notice] 74#74: gracefully shutting down
+2026/07/18 16:21:08 [notice] 75#75: gracefully shutting down
+2026/07/18 16:21:08 [notice] 68#68: exiting
+2026/07/18 16:21:08 [notice] 69#69: exiting
+2026/07/18 16:21:08 [notice] 70#70: exiting
+2026/07/18 16:21:08 [notice] 71#71: exiting
+2026/07/18 16:21:08 [notice] 73#73: exiting
+2026/07/18 16:21:08 [notice] 72#72: exiting
+2026/07/18 16:21:08 [notice] 74#74: exiting
+2026/07/18 16:21:08 [notice] 75#75: exiting
+2026/07/18 16:21:08 [notice] 68#68: exit
+2026/07/18 16:21:08 [notice] 69#69: exit
+2026/07/18 16:21:08 [notice] 70#70: exit
+2026/07/18 16:21:08 [notice] 71#71: exit
+2026/07/18 16:21:08 [notice] 73#73: exit
+2026/07/18 16:21:08 [notice] 72#72: exit
+2026/07/18 16:21:08 [notice] 74#74: exit
+2026/07/18 16:21:08 [notice] 75#75: exit
+2026/07/18 16:21:08 [notice] 1#1: signal 17 (SIGCHLD) received from 72
+2026/07/18 16:21:08 [notice] 1#1: worker process 68 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: worker process 69 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: worker process 72 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:21:08 [notice] 1#1: signal 17 (SIGCHLD) received from 73
+2026/07/18 16:21:08 [notice] 1#1: worker process 70 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: worker process 71 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: worker process 73 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: worker process 74 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: worker process 75 exited with code 0
+2026/07/18 16:21:08 [notice] 1#1: exit
+2026/07/18 16:21:10 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:21:10 [notice] 1#1: nginx/1.31.3
+2026/07/18 16:21:10 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/07/18 16:21:10 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2026/07/18 16:21:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/07/18 16:21:10 [notice] 1#1: start worker processes
+2026/07/18 16:21:10 [notice] 1#1: start worker process 20
+2026/07/18 16:21:10 [notice] 1#1: start worker process 21
+2026/07/18 16:21:10 [notice] 1#1: start worker process 22
+2026/07/18 16:21:10 [notice] 1#1: start worker process 23
+2026/07/18 16:21:10 [notice] 1#1: start worker process 24
+2026/07/18 16:21:10 [notice] 1#1: start worker process 25
+2026/07/18 16:21:10 [notice] 1#1: start worker process 26
+2026/07/18 16:21:10 [notice] 1#1: start worker process 27
+2026/07/18 16:24:35 [error] 20#20: *1 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:24:59 [notice] 28#28: signal process started
+2026/07/18 16:24:59 [notice] 1#1: signal 1 (SIGHUP) received from 28, reconfiguring
+2026/07/18 16:24:59 [notice] 1#1: reconfiguring
+2026/07/18 16:24:59 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:24:59 [notice] 1#1: start worker processes
+2026/07/18 16:24:59 [notice] 1#1: start worker process 34
+2026/07/18 16:24:59 [notice] 1#1: start worker process 35
+2026/07/18 16:24:59 [notice] 1#1: start worker process 36
+2026/07/18 16:24:59 [notice] 1#1: start worker process 37
+2026/07/18 16:24:59 [notice] 1#1: start worker process 38
+2026/07/18 16:24:59 [notice] 1#1: start worker process 39
+2026/07/18 16:24:59 [notice] 1#1: start worker process 40
+2026/07/18 16:24:59 [notice] 1#1: start worker process 41
+2026/07/18 16:24:59 [notice] 20#20: gracefully shutting down
+2026/07/18 16:24:59 [notice] 21#21: gracefully shutting down
+2026/07/18 16:24:59 [notice] 22#22: gracefully shutting down
+2026/07/18 16:24:59 [notice] 23#23: gracefully shutting down
+2026/07/18 16:24:59 [notice] 25#25: gracefully shutting down
+2026/07/18 16:24:59 [notice] 24#24: gracefully shutting down
+2026/07/18 16:24:59 [notice] 26#26: gracefully shutting down
+2026/07/18 16:24:59 [notice] 27#27: gracefully shutting down
+2026/07/18 16:24:59 [notice] 20#20: exiting
+2026/07/18 16:24:59 [notice] 21#21: exiting
+2026/07/18 16:24:59 [notice] 22#22: exiting
+2026/07/18 16:24:59 [notice] 23#23: exiting
+2026/07/18 16:24:59 [notice] 25#25: exiting
+2026/07/18 16:24:59 [notice] 23#23: exit
+2026/07/18 16:24:59 [notice] 24#24: exiting
+2026/07/18 16:24:59 [notice] 26#26: exiting
+2026/07/18 16:24:59 [notice] 27#27: exiting
+2026/07/18 16:24:59 [notice] 20#20: exit
+2026/07/18 16:24:59 [notice] 21#21: exit
+2026/07/18 16:24:59 [notice] 22#22: exit
+2026/07/18 16:24:59 [notice] 25#25: exit
+2026/07/18 16:24:59 [notice] 24#24: exit
+2026/07/18 16:24:59 [notice] 26#26: exit
+2026/07/18 16:24:59 [notice] 27#27: exit
+2026/07/18 16:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2026/07/18 16:24:59 [notice] 1#1: worker process 26 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/07/18 16:24:59 [notice] 1#1: worker process 21 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: worker process 25 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2026/07/18 16:24:59 [notice] 1#1: worker process 20 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: worker process 23 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: worker process 27 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/07/18 16:24:59 [notice] 1#1: worker process 22 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2026/07/18 16:24:59 [notice] 1#1: worker process 24 exited with code 0
+2026/07/18 16:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:25:04 [error] 34#34: *3 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:25:30 [error] 34#34: *3 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:25:31 [error] 34#34: *3 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:25:39 [warn] 42#42: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2026/07/18 16:25:39 [notice] 42#42: signal process started
+2026/07/18 16:25:39 [notice] 1#1: signal 1 (SIGHUP) received from 42, reconfiguring
+2026/07/18 16:25:39 [notice] 1#1: reconfiguring
+2026/07/18 16:25:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2026/07/18 16:25:39 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:25:39 [notice] 1#1: start worker processes
+2026/07/18 16:25:39 [notice] 1#1: start worker process 48
+2026/07/18 16:25:39 [notice] 1#1: start worker process 49
+2026/07/18 16:25:39 [notice] 1#1: start worker process 50
+2026/07/18 16:25:39 [notice] 1#1: start worker process 51
+2026/07/18 16:25:39 [notice] 1#1: start worker process 52
+2026/07/18 16:25:39 [notice] 1#1: start worker process 53
+2026/07/18 16:25:39 [notice] 1#1: start worker process 54
+2026/07/18 16:25:39 [notice] 1#1: start worker process 55
+2026/07/18 16:25:39 [notice] 34#34: gracefully shutting down
+2026/07/18 16:25:39 [notice] 35#35: gracefully shutting down
+2026/07/18 16:25:39 [notice] 36#36: gracefully shutting down
+2026/07/18 16:25:39 [notice] 37#37: gracefully shutting down
+2026/07/18 16:25:39 [notice] 38#38: gracefully shutting down
+2026/07/18 16:25:39 [notice] 40#40: gracefully shutting down
+2026/07/18 16:25:39 [notice] 39#39: gracefully shutting down
+2026/07/18 16:25:39 [notice] 41#41: gracefully shutting down
+2026/07/18 16:25:39 [notice] 34#34: exiting
+2026/07/18 16:25:39 [notice] 35#35: exiting
+2026/07/18 16:25:39 [notice] 36#36: exiting
+2026/07/18 16:25:39 [notice] 37#37: exiting
+2026/07/18 16:25:39 [notice] 38#38: exiting
+2026/07/18 16:25:39 [notice] 40#40: exiting
+2026/07/18 16:25:39 [notice] 39#39: exiting
+2026/07/18 16:25:39 [notice] 41#41: exiting
+2026/07/18 16:25:39 [notice] 34#34: exit
+2026/07/18 16:25:39 [notice] 35#35: exit
+2026/07/18 16:25:39 [notice] 36#36: exit
+2026/07/18 16:25:39 [notice] 37#37: exit
+2026/07/18 16:25:39 [notice] 38#38: exit
+2026/07/18 16:25:39 [notice] 40#40: exit
+2026/07/18 16:25:39 [notice] 39#39: exit
+2026/07/18 16:25:39 [notice] 41#41: exit
+2026/07/18 16:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2026/07/18 16:25:39 [notice] 1#1: worker process 39 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2026/07/18 16:25:39 [notice] 1#1: worker process 36 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: worker process 38 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: worker process 41 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2026/07/18 16:25:39 [notice] 1#1: worker process 34 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: worker process 40 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/07/18 16:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2026/07/18 16:25:39 [notice] 1#1: worker process 35 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2026/07/18 16:25:39 [notice] 1#1: worker process 37 exited with code 0
+2026/07/18 16:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:26:07 [warn] 56#56: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2026/07/18 16:26:07 [notice] 56#56: signal process started
+2026/07/18 16:26:07 [notice] 1#1: signal 1 (SIGHUP) received from 56, reconfiguring
+2026/07/18 16:26:07 [notice] 1#1: reconfiguring
+2026/07/18 16:26:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2026/07/18 16:26:07 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:26:07 [notice] 1#1: start worker processes
+2026/07/18 16:26:07 [notice] 1#1: start worker process 62
+2026/07/18 16:26:07 [notice] 1#1: start worker process 63
+2026/07/18 16:26:07 [notice] 1#1: start worker process 64
+2026/07/18 16:26:07 [notice] 1#1: start worker process 65
+2026/07/18 16:26:07 [notice] 1#1: start worker process 66
+2026/07/18 16:26:07 [notice] 1#1: start worker process 67
+2026/07/18 16:26:07 [notice] 1#1: start worker process 68
+2026/07/18 16:26:07 [notice] 1#1: start worker process 69
+2026/07/18 16:26:07 [notice] 48#48: gracefully shutting down
+2026/07/18 16:26:07 [notice] 49#49: gracefully shutting down
+2026/07/18 16:26:07 [notice] 50#50: gracefully shutting down
+2026/07/18 16:26:07 [notice] 51#51: gracefully shutting down
+2026/07/18 16:26:07 [notice] 54#54: gracefully shutting down
+2026/07/18 16:26:07 [notice] 53#53: gracefully shutting down
+2026/07/18 16:26:07 [notice] 55#55: gracefully shutting down
+2026/07/18 16:26:07 [notice] 52#52: gracefully shutting down
+2026/07/18 16:26:07 [notice] 48#48: exiting
+2026/07/18 16:26:07 [notice] 49#49: exiting
+2026/07/18 16:26:07 [notice] 50#50: exiting
+2026/07/18 16:26:07 [notice] 49#49: exit
+2026/07/18 16:26:07 [notice] 51#51: exiting
+2026/07/18 16:26:07 [notice] 54#54: exiting
+2026/07/18 16:26:07 [notice] 53#53: exiting
+2026/07/18 16:26:07 [notice] 55#55: exiting
+2026/07/18 16:26:07 [notice] 52#52: exiting
+2026/07/18 16:26:07 [notice] 48#48: exit
+2026/07/18 16:26:07 [notice] 50#50: exit
+2026/07/18 16:26:07 [notice] 51#51: exit
+2026/07/18 16:26:07 [notice] 54#54: exit
+2026/07/18 16:26:07 [notice] 53#53: exit
+2026/07/18 16:26:07 [notice] 55#55: exit
+2026/07/18 16:26:07 [notice] 52#52: exit
+2026/07/18 16:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2026/07/18 16:26:07 [notice] 1#1: worker process 49 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: worker process 52 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2026/07/18 16:26:07 [notice] 1#1: worker process 53 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2026/07/18 16:26:07 [notice] 1#1: worker process 54 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: worker process 55 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2026/07/18 16:26:07 [notice] 1#1: worker process 51 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2026/07/18 16:26:07 [notice] 1#1: worker process 48 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2026/07/18 16:26:07 [notice] 1#1: worker process 50 exited with code 0
+2026/07/18 16:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:27:45 [notice] 70#70: signal process started
+2026/07/18 16:27:45 [notice] 1#1: signal 1 (SIGHUP) received from 70, reconfiguring
+2026/07/18 16:27:45 [notice] 1#1: reconfiguring
+2026/07/18 16:27:45 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:27:45 [notice] 1#1: start worker processes
+2026/07/18 16:27:45 [notice] 1#1: start worker process 76
+2026/07/18 16:27:45 [notice] 1#1: start worker process 77
+2026/07/18 16:27:45 [notice] 1#1: start worker process 78
+2026/07/18 16:27:45 [notice] 1#1: start worker process 79
+2026/07/18 16:27:45 [notice] 1#1: start worker process 80
+2026/07/18 16:27:45 [notice] 1#1: start worker process 81
+2026/07/18 16:27:45 [notice] 1#1: start worker process 82
+2026/07/18 16:27:45 [notice] 1#1: start worker process 83
+2026/07/18 16:27:46 [notice] 62#62: gracefully shutting down
+2026/07/18 16:27:46 [notice] 63#63: gracefully shutting down
+2026/07/18 16:27:46 [notice] 64#64: gracefully shutting down
+2026/07/18 16:27:46 [notice] 65#65: gracefully shutting down
+2026/07/18 16:27:46 [notice] 66#66: gracefully shutting down
+2026/07/18 16:27:46 [notice] 69#69: gracefully shutting down
+2026/07/18 16:27:46 [notice] 68#68: gracefully shutting down
+2026/07/18 16:27:46 [notice] 67#67: gracefully shutting down
+2026/07/18 16:27:46 [notice] 62#62: exiting
+2026/07/18 16:27:46 [notice] 63#63: exiting
+2026/07/18 16:27:46 [notice] 64#64: exiting
+2026/07/18 16:27:46 [notice] 65#65: exiting
+2026/07/18 16:27:46 [notice] 66#66: exiting
+2026/07/18 16:27:46 [notice] 65#65: exit
+2026/07/18 16:27:46 [notice] 69#69: exiting
+2026/07/18 16:27:46 [notice] 68#68: exiting
+2026/07/18 16:27:46 [notice] 69#69: exit
+2026/07/18 16:27:46 [notice] 67#67: exiting
+2026/07/18 16:27:46 [notice] 62#62: exit
+2026/07/18 16:27:46 [notice] 63#63: exit
+2026/07/18 16:27:46 [notice] 64#64: exit
+2026/07/18 16:27:46 [notice] 66#66: exit
+2026/07/18 16:27:46 [notice] 68#68: exit
+2026/07/18 16:27:46 [notice] 67#67: exit
+2026/07/18 16:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 68
+2026/07/18 16:27:46 [notice] 1#1: worker process 68 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 64
+2026/07/18 16:27:46 [notice] 1#1: worker process 62 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: worker process 64 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: worker process 69 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 66
+2026/07/18 16:27:46 [notice] 1#1: worker process 66 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 63
+2026/07/18 16:27:46 [notice] 1#1: worker process 63 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: worker process 67 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 65
+2026/07/18 16:27:46 [notice] 1#1: worker process 65 exited with code 0
+2026/07/18 16:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:27:48 [error] 76#76: *9 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: site1.local, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:27:49 [error] 76#76: *9 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: site1.local, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:27:49 [error] 76#76: *9 open() "/etc/nginx/html/site2" failed (2: No such file or directory), client: 172.30.0.1, server: site1.local, request: "GET /site2 HTTP/1.1", host: "localhost"
+2026/07/18 16:31:18 [notice] 84#84: signal process started
+2026/07/18 16:31:18 [notice] 1#1: signal 1 (SIGHUP) received from 84, reconfiguring
+2026/07/18 16:31:18 [notice] 1#1: reconfiguring
+2026/07/18 16:31:18 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:31:18 [notice] 1#1: start worker processes
+2026/07/18 16:31:18 [notice] 1#1: start worker process 90
+2026/07/18 16:31:18 [notice] 1#1: start worker process 91
+2026/07/18 16:31:18 [notice] 1#1: start worker process 92
+2026/07/18 16:31:18 [notice] 1#1: start worker process 93
+2026/07/18 16:31:18 [notice] 1#1: start worker process 94
+2026/07/18 16:31:18 [notice] 1#1: start worker process 95
+2026/07/18 16:31:18 [notice] 1#1: start worker process 96
+2026/07/18 16:31:18 [notice] 1#1: start worker process 97
+2026/07/18 16:31:18 [notice] 76#76: gracefully shutting down
+2026/07/18 16:31:18 [notice] 77#77: gracefully shutting down
+2026/07/18 16:31:18 [notice] 78#78: gracefully shutting down
+2026/07/18 16:31:18 [notice] 79#79: gracefully shutting down
+2026/07/18 16:31:18 [notice] 81#81: gracefully shutting down
+2026/07/18 16:31:18 [notice] 80#80: gracefully shutting down
+2026/07/18 16:31:18 [notice] 82#82: gracefully shutting down
+2026/07/18 16:31:18 [notice] 83#83: gracefully shutting down
+2026/07/18 16:31:18 [notice] 76#76: exiting
+2026/07/18 16:31:18 [notice] 77#77: exiting
+2026/07/18 16:31:18 [notice] 78#78: exiting
+2026/07/18 16:31:18 [notice] 79#79: exiting
+2026/07/18 16:31:18 [notice] 81#81: exiting
+2026/07/18 16:31:18 [notice] 80#80: exiting
+2026/07/18 16:31:18 [notice] 82#82: exiting
+2026/07/18 16:31:18 [notice] 80#80: exit
+2026/07/18 16:31:18 [notice] 83#83: exiting
+2026/07/18 16:31:18 [notice] 76#76: exit
+2026/07/18 16:31:18 [notice] 77#77: exit
+2026/07/18 16:31:18 [notice] 78#78: exit
+2026/07/18 16:31:18 [notice] 79#79: exit
+2026/07/18 16:31:18 [notice] 81#81: exit
+2026/07/18 16:31:18 [notice] 82#82: exit
+2026/07/18 16:31:18 [notice] 83#83: exit
+2026/07/18 16:31:18 [notice] 1#1: signal 17 (SIGCHLD) received from 81
+2026/07/18 16:31:18 [notice] 1#1: worker process 81 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:31:18 [notice] 1#1: signal 17 (SIGCHLD) received from 80
+2026/07/18 16:31:18 [notice] 1#1: worker process 76 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: worker process 80 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:31:18 [notice] 1#1: signal 17 (SIGCHLD) received from 77
+2026/07/18 16:31:18 [notice] 1#1: worker process 77 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: worker process 78 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: worker process 82 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:31:18 [notice] 1#1: signal 17 (SIGCHLD) received from 82
+2026/07/18 16:31:18 [notice] 1#1: signal 17 (SIGCHLD) received from 83
+2026/07/18 16:31:18 [notice] 1#1: worker process 83 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:31:18 [notice] 1#1: signal 17 (SIGCHLD) received from 79
+2026/07/18 16:31:18 [notice] 1#1: worker process 79 exited with code 0
+2026/07/18 16:31:18 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:31:31 [error] 90#90: *10 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:31:31 [error] 91#91: *12 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:31:31 [error] 92#92: *13 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:31:31 [error] 93#93: *14 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:31:31 [error] 94#94: *15 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:14 [error] 94#94: *15 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:14 [error] 93#93: *14 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:14 [error] 92#92: *13 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:14 [error] 91#91: *12 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:14 [error] 90#90: *10 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 90#90: *10 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 91#91: *12 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 92#92: *13 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 94#94: *15 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 93#93: *14 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 93#93: *14 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 94#94: *15 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 92#92: *13 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 91#91: *12 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:32:15 [error] 90#90: *10 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:34:02 [error] 95#95: *19 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:34:02 [error] 96#96: *21 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:34:02 [error] 97#97: *22 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:34:02 [error] 90#90: *23 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:34:02 [error] 90#90: *24 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:13 [error] 90#90: *25 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:13 [error] 90#90: *27 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:13 [error] 90#90: *28 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:13 [error] 90#90: *29 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:13 [error] 91#91: *30 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 91#91: *30 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *29 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *28 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *27 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *25 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *25 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *27 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *28 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 91#91: *30 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *29 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *29 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 91#91: *30 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *28 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *27 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *25 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *25 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *27 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *28 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 91#91: *30 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:35:14 [error] 90#90: *29 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:22 [error] 90#90: *41 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:22 [error] 90#90: *42 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:22 [error] 90#90: *43 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:22 [error] 90#90: *44 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:22 [error] 90#90: *45 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *45 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *44 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *43 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *42 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *41 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *41 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *42 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *43 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *44 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *45 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *45 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *44 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *43 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *42 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *41 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *41 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *42 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *43 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *44 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:23 [error] 90#90: *45 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:24 [error] 90#90: *45 open() "/etc/nginx/html/css/style.css" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /css/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:24 [error] 90#90: *44 open() "/etc/nginx/html/img/2.jpeg" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/2.jpeg HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:24 [error] 90#90: *43 open() "/etc/nginx/html/img/vehicle-fleet-tracking.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/vehicle-fleet-tracking.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:24 [error] 90#90: *42 open() "/etc/nginx/html/img/grafana.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/grafana.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:24 [error] 90#90: *41 open() "/etc/nginx/html/img/gameseeder.png" failed (2: No such file or directory), client: 172.30.0.1, server: localhost, request: "GET /img/gameseeder.png HTTP/1.1", host: "localhost", referrer: "http://localhost/site2"
+2026/07/18 16:40:26 [notice] 98#98: signal process started
+2026/07/18 16:40:26 [notice] 1#1: signal 1 (SIGHUP) received from 98, reconfiguring
+2026/07/18 16:40:26 [notice] 1#1: reconfiguring
+2026/07/18 16:40:26 [notice] 1#1: using the "epoll" event method
+2026/07/18 16:40:26 [notice] 1#1: start worker processes
+2026/07/18 16:40:26 [notice] 1#1: start worker process 105
+2026/07/18 16:40:26 [notice] 1#1: start worker process 106
+2026/07/18 16:40:26 [notice] 1#1: start worker process 107
+2026/07/18 16:40:26 [notice] 1#1: start worker process 108
+2026/07/18 16:40:26 [notice] 1#1: start worker process 109
+2026/07/18 16:40:26 [notice] 1#1: start worker process 110
+2026/07/18 16:40:26 [notice] 1#1: start worker process 111
+2026/07/18 16:40:26 [notice] 1#1: start worker process 112
+2026/07/18 16:40:26 [notice] 90#90: gracefully shutting down
+2026/07/18 16:40:26 [notice] 91#91: gracefully shutting down
+2026/07/18 16:40:26 [notice] 92#92: gracefully shutting down
+2026/07/18 16:40:26 [notice] 93#93: gracefully shutting down
+2026/07/18 16:40:26 [notice] 95#95: gracefully shutting down
+2026/07/18 16:40:26 [notice] 94#94: gracefully shutting down
+2026/07/18 16:40:26 [notice] 96#96: gracefully shutting down
+2026/07/18 16:40:26 [notice] 97#97: gracefully shutting down
+2026/07/18 16:40:26 [notice] 90#90: exiting
+2026/07/18 16:40:26 [notice] 91#91: exiting
+2026/07/18 16:40:26 [notice] 92#92: exiting
+2026/07/18 16:40:26 [notice] 91#91: exit
+2026/07/18 16:40:26 [notice] 93#93: exiting
+2026/07/18 16:40:26 [notice] 95#95: exiting
+2026/07/18 16:40:26 [notice] 94#94: exiting
+2026/07/18 16:40:26 [notice] 96#96: exiting
+2026/07/18 16:40:26 [notice] 94#94: exit
+2026/07/18 16:40:26 [notice] 97#97: exiting
+2026/07/18 16:40:26 [notice] 90#90: exit
+2026/07/18 16:40:26 [notice] 97#97: exit
+2026/07/18 16:40:26 [notice] 92#92: exit
+2026/07/18 16:40:26 [notice] 93#93: exit
+2026/07/18 16:40:26 [notice] 95#95: exit
+2026/07/18 16:40:26 [notice] 96#96: exit
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 91
+2026/07/18 16:40:26 [notice] 1#1: worker process 91 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: worker process 92 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 95
+2026/07/18 16:40:26 [notice] 1#1: worker process 95 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 97
+2026/07/18 16:40:26 [notice] 1#1: worker process 97 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 93
+2026/07/18 16:40:26 [notice] 1#1: worker process 93 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 96
+2026/07/18 16:40:26 [notice] 1#1: worker process 90 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: worker process 96 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: signal 29 (SIGIO) received
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 90
+2026/07/18 16:40:26 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2026/07/18 16:40:26 [notice] 1#1: worker process 94 exited with code 0
+2026/07/18 16:40:26 [notice] 1#1: signal 29 (SIGIO) received

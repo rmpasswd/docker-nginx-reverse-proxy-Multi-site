@@ -1,0 +1,22 @@
+
+services:
+  site1:
+    image: httpd:alpine3.24
+    container_name: site1
+    volumes:
+      - ./site1:/usr/local/apache2/htdocs/
+  site2:
+    image: httpd:alpine3.24
+    container_name: site2
+    volumes:
+      - ./site2:/usr/local/apache2/htdocs/
+
+  enginex:
+    image: nginx:alpine3.24
+    container_name: nginx-rev
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./nginx/logs/:/var/log/nginx/
+
