@@ -1,0 +1,24 @@
+name: Deploy Sites to Google Cloud VM
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run ssh 
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST_IP }}
+          username: g9mahin_ahmad
+          key: ${{ secrets.SSH_SERVER_KEY }}
+          script: |
+            cd /home/g9mahin_ahmad/docker-nginx-reverse-proxy-Multi-site/
+            
+            git pull origin main
+            docker compose up -d --build
+
+            
