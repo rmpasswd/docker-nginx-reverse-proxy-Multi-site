@@ -15,7 +15,46 @@ services:
     image: nginx:alpine3.24
     container_name: nginx-rev
     ports:
-      - "80:80"
+      - 80:${NGINX_PORT}
+      - 443:443
+    env_file:
+      - ./.env
     volumes:
-      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      # - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./nginx/templates/:/etc/nginx/templates/
       - ./nginx/logs/:/var/log/nginx/
+      - ./lego/conf:/etc/lego
+      - ./lego/www:/var/www/lego
+
+  cert_lego:
+    image: goacme/lego
+    container_name: cert_lego
+    depends_on: 
+      - enginex
+    volumes:
+      - ./lego/conf:/etc/lego
+      - ./lego/www:/var/www/lego
+    command: > # just 'run' instead of 'lego run' because the entrypoint(go to docker inspect) contains /lego already!
+      run 
+      --server https://acme-staging-v02.api.letsencrypt.org/directory
+      --email ${MY_EMAIL}
+      --accept-tos
+      --http.webroot /var/www/lego
+      --http
+      --csr /etc/lego/ip.csr
+      --path /etc/lego
+      --profile shortlived
+
+  # certbot:
+  #   image: certbot/certbot
+  #   container_name: certbot
+  #   volumes:
+  #     - ./certbot/conf:/etc/letsencrypt
+  #     - ./certbot/www:/var/www/certbot
+  #   command: certonly --webroot -w /var/www/certbot -d 35.240.190.73  --email $CERTBOT_EMAIL --agree-tos --keep-until-expiring --preferred-profile shortlived
+  # command: certonly --webroot -w /var/www/certbot -d mahin.uk  --email $CERTBOT_EMAIL --agree-tos --keep-until-expiring
+
+# Goal was to configure SSL for the public IP of the VM(GCP), but certbot still do not support SSL for IP Address, though Let's Encrypt does.
+# https://github.com/certbot/certbot/issues/10346
+# https://community.letsencrypt.org/t/certbot-fails-for-ipv4-ssl-creation/241215/12
+# For this reason i am using a certbot alternative: goacme/lego
