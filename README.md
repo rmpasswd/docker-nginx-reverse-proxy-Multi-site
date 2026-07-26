@@ -2,7 +2,8 @@
 
 This project is a multi-site Nginx reverse proxy that serves multiple websites from a single server. It uses Docker to containerize the Nginx reverse proxy and the websites. It also uses Docker Compose to manage the containers.
 
-## Folder structure  
+### Demo - https:
+<img width="632" height="899" alt="image" src="https://github.com/user-attachments/assets/1a41dbd8-c978-4769-bbb9-790cb22d22d9" />
 
 ## Server requirements  
 
