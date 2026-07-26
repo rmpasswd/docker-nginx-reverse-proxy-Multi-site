@@ -1,0 +1,11 @@
+[ req ]
+prompt = no
+default_md = sha256
+distinguished_name = dn
+req_extensions = v3_req
+
+[ dn ]
+O = MAHIN_AHMAD_CORP
+
+[ v3_req ]
+subjectAltName = IP:35.240.190.73
