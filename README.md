@@ -1,7 +1,3 @@
-# docker-nginx-reverse-proxy-Multi-site
-DevOps Technical Assessment - RedLime
-
-
 ## Project overview  
 
 This project is a multi-site Nginx reverse proxy that serves multiple websites from a single server. It uses Docker to containerize the Nginx reverse proxy and the websites. It also uses Docker Compose to manage the containers.
