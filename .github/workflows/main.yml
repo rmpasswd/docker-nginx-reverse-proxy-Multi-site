@@ -18,13 +18,17 @@ jobs:
           key: ${{ secrets.SSH_SERVER_KEY }}
           script: |
             cd /home/g9mahin_ahmad/docker-nginx-reverse-proxy-Multi-site/
-            
+
+            git stash && git checkout main
             git pull --force origin main
-            echo "tried to git pull, status: $(echo $?)"
+            echo $?
+            echo "tried to git pull."
 
             docker compose up -d --build
-            echo "tried to compose up, status: $(echo $?)"
+            echo $?
+            echo "tried to compose up"
             
             docker compose exec enginex nginx -s reload
-            echo "tried to reload nginx, status: $(echo $@)"
+            echo $?
+            echo "tried to reload nginx"
             
