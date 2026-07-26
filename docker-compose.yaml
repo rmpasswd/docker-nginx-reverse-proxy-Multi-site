@@ -1,4 +1,3 @@
-
 services:
   site1:
     image: httpd:alpine3.24
@@ -11,29 +10,9 @@ services:
     volumes:
       - ./site2:/usr/local/apache2/htdocs/
 
-  cert_lego:
-    image: goacme/lego
-    container_name: cert_lego
-    volumes:
-      - ./lego/conf:/etc/lego
-      - ./lego/www:/var/www/lego
-    command: > # just 'run' instead of 'lego run' because the entrypoint(go to docker inspect) contains /lego already!
-      run 
-      --server https://acme-v02.api.letsencrypt.org/directory
-      --email ${MY_EMAIL}
-      --accept-tos
-      --http.webroot /var/www/lego
-      --http 
-      --csr /etc/lego/ip.csr
-      --path /etc/lego
-      --profile shortlived
-
   enginex:
     image: nginx:alpine3.24
     container_name: nginx-rev
-    depends_on:
-      cert_lego:
-        condition: service_completed_successfully
     ports:
       - 80:80
       - 443:443
@@ -45,6 +24,27 @@ services:
       - ./nginx/logs/:/var/log/nginx/
       - ./lego/conf:/etc/lego
       - ./lego/www:/var/www/lego
+
+  cert_lego:
+    image: goacme/lego
+    container_name: cert_lego
+    volumes:
+      - ./lego/conf:/etc/lego
+      - ./lego/www:/var/www/lego
+    depends_on:
+      - enginex
+    command: > # just 'run' instead of 'lego run' because the entrypoint contains /lego already! (check 'docker inspect')   
+      run
+      --server letsencrypt
+      --email ${MY_EMAIL}
+      --accept-tos
+      --http.webroot /var/www/lego
+      --http
+      --csr /etc/lego/ip.csr
+      --path /etc/lego
+      --profile shortlived
+      --log.level debug
+      --renew-force
 
 
   # certbot:

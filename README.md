@@ -47,3 +47,6 @@ map this directory to lego container volume mapping in yaml file:
         --disable-cn  
         run --profile shortlived
 ```
+
+`docker compose down && docker compose up  --build`. We cannot update nginx config file to use SSL certificates just yet. First we have to run docker with existing config
+
