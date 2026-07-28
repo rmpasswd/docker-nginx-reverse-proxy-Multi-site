@@ -13,7 +13,7 @@ A simple Debian (trixie) linux server has been used for this project.
 
 ### Server Setup:
 After getting a fresh Debin-based Linux VM, the following steps were taken:
-
+  
 1. `sudo apt update`: update package listing so that install command can find packages.
 2. `sudo apt install -y git curl vim`
 
@@ -228,6 +228,7 @@ map this directory to lego container volume mapping in yaml file:
       --log.level debug
 ```
 We cannot update nginx config file to use SSL certificates just yet. First we have to run `docker compose down && docker compose up  --build`. with the config below. Otherwise this error will throw: `nginx: [emerg] cannot load certificate "/etc/lego/certificates/35.240.190.73.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/lego/certificates/35.240.190.73.crt, r) error:10000080:BIO routines::no such file) `  
+Important: To use custom ${variables} from a .env file in nginx config files, we need to write the config file inside nginx' **templates** directory (not conf.d) and run `docker restart container_name` everytime we change the config, not `nginx -s reload`. The `conf.d` will be configured by nginx itself using files (with names ending with `.template`) from templates directory.
 
 ```
 server {
@@ -256,7 +257,6 @@ server {
     # return 301 https://$host$request_uri;
 }
 ```  
-Important: To use custom ${variables} from a .env file in nginx config files, we need to write the config file inside nginx' **templates** directory and run `docker restart container_name` everytime we change the config, not `nginx -s reload`. For simple use cases, disregard this.
 
 We can see it successfully exit(code 0) in following picture:  
   <img width="1343" height="870" alt="image" src="https://github.com/user-attachments/assets/bf37e585-91c1-4e56-b22c-e442c5456221" />
@@ -266,7 +266,7 @@ Notice for IP4, letsencrypt issues [6 days](https://letsencrypt.org/2026/01/15/6
 - `crontab -e` to open crontab editor, add the following line at the end.
 -  `0 22  */5 * * /usr/bin/docker compose -f ~/docker-nginx-reverse-proxy-Multi-site/docker-compose.yaml up cert_lego`
 
-And finally modify the [final nginx file](./nginx/templates/complete_ssl.conf.template) to allow https and redirect http. We are going to move the Acme-challenge directory from the first server block(80) to the second server block(443) so that in future the certificate is renewed through secure 443 port. Notice the crucial lines below ssl_certificate file types are different for lego, `certbot` tool would produce .pem files. Final nginx config file:
+And finally modify the **final nginx file** (see `nginx/templates/` directory) to allow https and redirect http. We are going to move the Acme-challenge directory from the first server block(80) to the second server block(443) so that in future the certificate is renewed through secure 443 port. Notice the crucial lines below ssl_certificate file types are different for lego, `certbot` tool would produce .pem files. Final nginx config file:
 ```
 server  {
 
