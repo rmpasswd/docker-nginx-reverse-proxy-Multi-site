@@ -1,3 +1,4 @@
 ./nginx/logs/*
 # .env
 ./lego/conf/*
+!./lego/conf/.gitkeep
