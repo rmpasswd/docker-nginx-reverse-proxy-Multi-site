@@ -184,7 +184,7 @@ httpd and nginx base image size is similar. Furthermore, using 3 nginx-based con
 
 Let's Encrypt now also supports IP addresses, but we need to use `lego`, an alternate to the usual `certbot` which only supports domain names, to configure SSL for IPv4.
 
-`lego/conf/ip.cnf` in the project tree.
+`lego/conf/ip.cnf` in the project tree inside the **server**.
 ```
 [ req ]
 prompt = no
