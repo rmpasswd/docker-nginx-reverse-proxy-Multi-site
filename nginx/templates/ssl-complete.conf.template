@@ -1,0 +1,63 @@
+server {
+
+    listen 80 default_server;
+
+    server_name ${NGINX_SERVER_NAME};
+
+    # These two redirect lines are necessary as /site1 implies a file rather than a directory, resutling in /css/style.css file not loading
+
+     #location = /site1 {
+         #return 301 http://$host/site1/;
+     #}
+ 
+     #location = /site2 {
+         #return 301 http://$host/site2/;
+     #}
+ 
+      #location /site1/ {
+          #proxy_pass http://site1/;
+          #proxy_set_header Host $host;
+      #}
+ 
+      #location /site2/ {
+          #proxy_pass http://site2/;
+          #proxy_set_header Host $host;
+      #}
+ 
+    return 301 https://$host$request_uri;
+
+}
+
+
+server {
+
+    listen 443 ssl;
+    server_name ${NGINX_SERVER_NAME};
+
+    ssl_certificate /etc/lego/certificates/35.240.190.73.crt;
+    ssl_certificate_key /etc/lego/ip.key;
+
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/lego;
+        allow all;
+    }
+
+
+    location = /site1 {
+        return 301 https://$host/site1/;
+    }
+
+    location = /site2 {
+        return 301 https://$host/site2/;
+    }
+
+    location /site1/ {
+        proxy_pass http://site1/;
+        proxy_set_header Host $host;
+    }
+
+    location /site2/ {
+        proxy_pass http://site2/;
+        proxy_set_header Host $host;
+    }
+}
